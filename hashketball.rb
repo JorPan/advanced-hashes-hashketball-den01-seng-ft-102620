@@ -217,4 +217,11 @@ def most_points_scored
   player
 end
 
-
+def winning_team
+  home_score = 0
+  away_score = 0 
+  winning team = "" 
+  game_hash.each do |location, team_data|
+    binding.pry
+  end
+end
